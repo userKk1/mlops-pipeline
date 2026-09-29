@@ -3,12 +3,16 @@ from fastapi import FastAPI
 from app.model import predict
 from app.schemas import CustomerData, PredictionResponse
 
+from prometheus_fastapi_instrumentator import Instrumentator
+
 
 app = FastAPI(
     title="Customer Churn Prediction API",
     description="API for predicting customer churn",
     version="1.0.0"
 )
+
+Instrumentator().instrument(app).expose(app)
 
 
 @app.get("/")

@@ -6,3 +6,5 @@ joblib
 xgboost
 pytest
 httpx2
+prometheus-fastapi-instrumentator
+requests
