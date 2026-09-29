@@ -1,4 +1,4 @@
-model/artifacts/*
+*.pkl
 .venv/
 .vscode/
 __pycache__/
