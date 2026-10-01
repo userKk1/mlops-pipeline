@@ -51,4 +51,4 @@ jobs:
 
     steps:
       - name: Deploy application
-        run: echo "CD: Application would be deployed here"
+        run: echo "CD, Application would be deployed here"
