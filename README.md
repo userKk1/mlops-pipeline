@@ -1,4 +1,3 @@
-```markdown
 # Customer Churn Prediction — MLOps Pipeline
 
 An end-to-end **Machine Learning and MLOps project** for predicting customer churn from the IBM Telco Customer Churn dataset.
